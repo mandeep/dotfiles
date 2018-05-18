@@ -1,0 +1,21 @@
+{
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"fold_buttons": false,
+	"font_face": "Source Code Pro Medium",
+	"font_size": 11.5,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"margin": 8,
+	"show_definitions": false,
+	"show_errors_inline": false,
+	"tab_size": 4,
+	"theme": "Boxy Ocean.sublime-theme",
+	"theme_font_md": true,
+	"theme_size_md": true,
+	"theme_tab_font_lg": true,
+	"translate_tabs_to_spaces": true
+}
