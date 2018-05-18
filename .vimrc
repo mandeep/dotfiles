@@ -43,6 +43,11 @@ set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 " create a user command :Flake8 that runs flake8 on the current file
 command Flake8 call Flake8()
 
+" enable persistent undo
+let undodir = "~/.vim/undodir/"
+set undofile
+
+
 syntax on
 colorscheme base16-oceanicnext
 set number
