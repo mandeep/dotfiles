@@ -43,6 +43,10 @@ let g:ale_use_deprecated_neovim = 1
 let g:airline#extensions#ale#enabled = 1
 let g:ale_set_signs = 0
 let g:ale_set_highlights = 0
+let g:ale_linters = {
+\   'c': ['gcc'],
+\}
+let g:ale_c_gcc_options = '-Wextra -Wall -Wformat=2 -Wshadow -Wstrict-prototypes -std=c11'
 
 " translate tabs to 4 spaces
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
