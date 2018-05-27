@@ -52,8 +52,10 @@ let g:ale_c_gcc_options = '-Wextra -Wall -Wformat=2 -Wshadow -Wstrict-prototypes
 " translate tabs to 4 spaces
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
-" create a user command :Flake8 that runs flake8 on the current file
+" user commands and remaps
 command Flake8 call Flake8()
+autocmd FileType python nnoremap <buffer> <F9> :w <cr> :!python3 % <cr>
+autocmd FileType c nnoremap <buffer> <F8> :w <cr> :!gcc -std=c11 % -o %< && ./%< <cr>
 
 " enable persistent undo
 let undodir = "~/.vim/undodir/"
