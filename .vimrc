@@ -61,6 +61,15 @@ autocmd FileType c nnoremap <buffer> <F8> :w <cr> :!gcc -std=c11 % -o %< && ./%<
 let undodir = "~/.vim/undodir/"
 set undofile
 
+" function and command to trim trailing whitespace
+fun! TrimWhitespace()
+    let l:save = winsaveview()
+    %s/\s\+$//e
+    call winrestview(l:save)
+endfun
+
+command! Trim call TrimWhitespace()
+
 syntax on
 colorscheme base16-oceanicnext
 set number
