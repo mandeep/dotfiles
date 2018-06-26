@@ -14,7 +14,6 @@ Plug 'chriskempson/base16-vim'
 Plug 'rust-lang/rust.vim'
 Plug 'Valloric/YouCompleteMe'
 Plug 'vim-python/python-syntax'
-Plug 'nvie/vim-flake8'
 Plug 'cespare/vim-toml'
 Plug 'justinmk/vim-syntax-extra'
 Plug 'vim-airline/vim-airline'
@@ -53,7 +52,6 @@ let g:ale_c_gcc_options = '-Wextra -Wall -Wformat=2 -Wshadow -Wstrict-prototypes
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 " user commands and remaps
-command Flake8 call Flake8()
 autocmd FileType python nnoremap <buffer> <F9> :w <cr> :!python3 % <cr>
 autocmd FileType c nnoremap <buffer> <F8> :w <cr> :!gcc -std=c11 % -o %< && ./%< <cr>
 
