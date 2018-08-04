@@ -2,8 +2,8 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 set termguicolors
 set shell=/usr/bin/zsh
-
 set encoding=utf-8
+
 filetype plugin on
 filetype indent on
 
@@ -67,4 +67,6 @@ autocmd FileType c nnoremap <buffer> <F8> :w <cr> :!gcc -std=c11 % -o %< && ./%<
 syntax on
 colorscheme base16-oceanicnext
 set number
+set ignorecase
+set smartcase
 highlight clear LineNr
