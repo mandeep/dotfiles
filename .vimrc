@@ -3,6 +3,7 @@ filetype off                  " required
 set termguicolors
 set shell=/usr/bin/zsh
 
+set encoding=utf-8
 filetype plugin on
 filetype indent on
 
@@ -21,6 +22,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'w0rp/ale'
 Plug 'kana/vim-smartinput'
 
+
 " plugins must be listed prior to this call
 call plug#end()
 
@@ -28,7 +30,7 @@ call plug#end()
 set hidden
 
 " point neovim to virtualenvs where the neovim python package is installed
-let g:python_host_prog = "/home/mandeep/.virtualenvs/neovim3/bin/python"
+let g:python_host_prog = "/home/mandeep/.virtualenvs/neovim2/bin/python"
 let g:python3_host_prog = "/home/mandeep/.virtualenvs/neovim3/bin/python"
 
 " set semantic completion for youcompleteme
@@ -39,12 +41,15 @@ let g:ycm_rust_src_path = "~/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/
 let g:python_highlight_all = 1
 
 " ale settings
+let g:ale_fixers = ['trim_whitespace', 'remove_trailing_lines']
+let g:ale_fix_on_save = 1
 let g:ale_use_deprecated_neovim = 1
 let g:airline#extensions#ale#enabled = 1
 let g:ale_set_signs = 0
 let g:ale_set_highlights = 0
 let g:ale_linters = {
 \   'c': ['gcc'],
+\   'cpp': ['gcc']
 \}
 let g:ale_c_gcc_options = '-Wextra -Wall -Wformat=2 -Wshadow -Wstrict-prototypes -std=c11'
 
@@ -55,18 +60,9 @@ set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 let undodir = "~/.vim/undodir/"
 set undofile
 
-" function and command to trim trailing whitespace
-fun! TrimWhitespace()
-    let l:save = winsaveview()
-    %s/\s\+$//e
-    call winrestview(l:save)
-endfun
-
 " user commands and remaps
 autocmd FileType python nnoremap <buffer> <F9> :w <cr> :!python3 % <cr>
 autocmd FileType c nnoremap <buffer> <F8> :w <cr> :!gcc -std=c11 % -o %< && ./%< <cr>
-autocmd BufWritePre * :call TrimWhitespace()
-command! Trim call TrimWhitespace()
 
 syntax on
 colorscheme base16-oceanicnext
