@@ -41,9 +41,8 @@ let g:ycm_rust_src_path = "~/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/
 let g:python_highlight_all = 1
 
 " ale settings
-let g:ale_fixers = ['trim_whitespace', 'remove_trailing_lines']
+let b:ale_fixers = ['trim_whitespace', 'remove_trailing_lines']
 let g:ale_fix_on_save = 1
-let g:ale_use_deprecated_neovim = 1
 let g:airline#extensions#ale#enabled = 1
 let g:ale_set_signs = 0
 let g:ale_set_highlights = 0
