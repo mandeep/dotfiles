@@ -20,7 +20,7 @@ Plug 'justinmk/vim-syntax-extra'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'w0rp/ale'
-Plug 'kana/vim-smartinput'
+Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary'
 
 " plugins must be listed prior to this call
