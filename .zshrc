@@ -23,8 +23,6 @@ DISABLE_AUTO_UPDATE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/
 plugins=(
     cargo
-    git
-    pip
     zsh-autosuggestions
     virtualenvwrapper
 )
