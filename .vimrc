@@ -56,10 +56,6 @@ set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 let undodir = "~/.vim/undodir/"
 set undofile
 
-" user commands and remaps
-autocmd FileType python nnoremap <buffer> <F9> :w <cr> :!python3 % <cr>
-autocmd FileType c nnoremap <buffer> <F8> :w <cr> :!gcc -std=c11 % -o %< && ./%< <cr>
-
 syntax on
 colorscheme base16-oceanicnext
 set number
