@@ -41,7 +41,7 @@ let g:ycm_auto_trigger = 0
 " enable highlighting of all python-syntax options
 let g:python_highlight_all = 1
 
-" ale settings
+" set ale specific settings
 let g:ale_fixers = {'*': ['trim_whitespace', 'remove_trailing_lines']}
 let g:ale_fix_on_save = 1
 let g:airline#extensions#ale#enabled = 1
@@ -49,6 +49,7 @@ let g:ale_set_signs = 0
 let g:ale_set_highlights = 0
 let g:ale_linters = {'c': ['gcc'], 'python': ['flake8']}
 let g:ale_c_gcc_options = '-Wextra -Wall -Wformat=2 -Wshadow -Wstrict-prototypes -std=c11'
+let g:ale_nasm_nasm_options = '-f elf64'
 
 " set the assembly syntax to nasm
 let asmsyntax = "nasm"
