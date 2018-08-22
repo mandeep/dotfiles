@@ -36,6 +36,7 @@ let g:python3_host_prog = "/home/mandeep/.virtualenvs/neovim3/bin/python"
 " set semantic completion for youcompleteme
 let g:ycm_python_binary_path = "/usr/bin/python3"
 let g:ycm_rust_src_path = "~/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src"
+let g:ycm_auto_trigger = 0
 
 " enable highlighting of all python-syntax options
 let g:python_highlight_all = 1
@@ -48,6 +49,9 @@ let g:ale_set_signs = 0
 let g:ale_set_highlights = 0
 let g:ale_linters = {'c': ['gcc']}
 let g:ale_c_gcc_options = '-Wextra -Wall -Wformat=2 -Wshadow -Wstrict-prototypes -std=c11'
+
+" set the assembly syntax to nasm
+let asmsyntax = "nasm"
 
 " translate tabs to 4 spaces
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
