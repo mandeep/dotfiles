@@ -56,7 +56,7 @@ let g:ale_set_signs = 0
 let g:ale_set_highlights = 0
 let g:ale_linters = {'c': ['gcc'], 'cpp': ['gcc'], 'python': ['flake8']}
 let g:ale_c_gcc_options = '-Wextra -Wall -Wformat=2 -Wshadow -Wstrict-prototypes -std=c11'
-let g:ale_cpp_gcc_options = '-Wall -Wextra -Wformat=2 -Wshadow -Wstrict-prototypes -std=c++17'
+let g:ale_cpp_gcc_options = '-Wall -Wextra -Wformat=2 -Wshadow -std=c++17'
 let g:ale_nasm_nasm_options = '-f elf64'
 
 " set the assembly syntax to nasm
