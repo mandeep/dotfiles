@@ -7,6 +7,13 @@ set encoding=utf-8
 filetype plugin on
 filetype indent on
 
+" add plug install verification
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
 " set the runtime path to include plug
 call plug#begin('~/.vim/plugged')
 
