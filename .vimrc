@@ -7,10 +7,6 @@ set encoding=utf-8
 filetype plugin on
 filetype indent on
 
-" map the alt + hjkl keys to move between buffers
-nnoremap <A-j> :bnext<CR>
-nnoremap <A-k> :bprevious<CR>
-
 " add plug install verification
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
