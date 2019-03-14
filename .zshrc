@@ -41,6 +41,9 @@ fi
 # Source zsh-syntax-highlighting
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# add Cargo to PATH
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # Source racer autocompletion tool for Rust
 export RUST_SRC_PATH=/home/mandeep/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src
 
