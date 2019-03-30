@@ -29,6 +29,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'w0rp/ale'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary'
+Plug 'tikhomirov/vim-glsl'
 
 " plugins must be listed prior to this call
 call plug#end()
