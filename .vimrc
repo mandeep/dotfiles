@@ -19,7 +19,7 @@ call plug#begin('~/.vim/plugged')
 
 " plugins to be installed by plug
 Plug 'chriskempson/base16-vim'
-Plug 'rust-lang/rust.vim'
+Plug 'rust-lang/rust.vim'  " checkout commit 0f26c3a0 for doc comments to work properly
 Plug 'Valloric/YouCompleteMe'
 Plug 'vim-python/python-syntax'
 Plug 'cespare/vim-toml'
