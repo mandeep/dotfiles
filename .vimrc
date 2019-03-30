@@ -37,10 +37,6 @@ call plug#end()
 " enable hidden buffers
 set hidden
 
-" point neovim to virtualenvs where the neovim python package is installed
-let g:python_host_prog = "/home/mandeep/.virtualenvs/neovim2/bin/python"
-let g:python3_host_prog = "/home/mandeep/.virtualenvs/neovim3/bin/python"
-
 " set semantic completion for youcompleteme
 let g:ycm_python_binary_path = "/usr/bin/python3"
 let g:ycm_rust_src_path = "~/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src"
