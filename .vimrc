@@ -30,6 +30,8 @@ Plug 'w0rp/ale'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary'
 Plug 'tikhomirov/vim-glsl'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 
 " plugins must be listed prior to this call
 call plug#end()
