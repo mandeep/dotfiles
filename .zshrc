@@ -49,3 +49,7 @@ export RUST_SRC_PATH=/home/mandeep/.rustup/toolchains/stable-x86_64-unknown-linu
 
 # Set editor environment variable so that git uses nvim as default editor
 export EDITOR=nvim
+
+# Add local bin to PATH
+export PATH="$HOME/.local/bin:$PATH"
+export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
