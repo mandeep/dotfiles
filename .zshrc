@@ -39,7 +39,7 @@ if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
 fi
 
 # Source zsh-syntax-highlighting
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # add Cargo to PATH
 export PATH="$HOME/.cargo/bin:$PATH"
