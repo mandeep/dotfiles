@@ -1,0 +1,7 @@
+unstable_features = true
+indent_style = "Visual"
+use_small_heuristics = "Max"
+condense_wildcard_suffixes = true
+fn_args_layout = "Compressed"
+max_width = 100
+struct_field_align_threshold = 50
