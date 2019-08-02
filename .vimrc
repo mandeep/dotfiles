@@ -41,7 +41,7 @@ set hidden
 
 " set semantic completion for youcompleteme
 let g:ycm_python_binary_path = "/usr/bin/python3"
-let g:ycm_rust_src_path = "~/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src"
+let g:ycm_rust_src_path = "~/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src"
 let g:ycm_auto_trigger = 0
 
 " enable highlighting of all python-syntax options
