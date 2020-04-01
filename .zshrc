@@ -53,3 +53,6 @@ export EDITOR=nvim
 # Add local bin to PATH
 export PATH="$HOME/.local/bin:$PATH"
 export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
+
+# Add alias for make to run the same number of jobs as number of processors
+alias make=make -j$(nproc)
