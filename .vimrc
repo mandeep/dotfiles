@@ -1,3 +1,6 @@
+" see https://neovim.io/doc/user/nvim.html#nvim-from-vim on how to transition
+" config from vim to neovim
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 set termguicolors
