@@ -23,7 +23,6 @@ call plug#begin('~/.vim/plugged')
 " plugins to be installed by plug
 Plug 'chriskempson/base16-vim'
 Plug 'rust-lang/rust.vim'  " checkout commit 0f26c3a0 for doc comments to work properly
-Plug 'Valloric/YouCompleteMe'
 Plug 'vim-python/python-syntax'
 Plug 'cespare/vim-toml'
 Plug 'justinmk/vim-syntax-extra'
@@ -41,11 +40,6 @@ call plug#end()
 
 " enable hidden buffers
 set hidden
-
-" set semantic completion for youcompleteme
-let g:ycm_python_binary_path = "/usr/bin/python3"
-let g:ycm_rust_src_path = "~/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src"
-let g:ycm_auto_trigger = 0
 
 " enable highlighting of all python-syntax options
 let g:python_highlight_all = 1
