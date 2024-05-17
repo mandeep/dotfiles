@@ -66,9 +66,8 @@ let undodir = "~/.vim/undodir/"
 set undofile
 
 syntax on
-colorscheme base16-oceanicnext
+colorscheme base16-onedark
 set number
 set ignorecase
 set smartcase
 highlight clear LineNr
-
