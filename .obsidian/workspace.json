@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "8840e43c7d5193e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "12a247745e80e640",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a396f56ece3d969",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8325ef2935568249",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbf4b525584a975c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d98f22cf12f6d04c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "17b1626513e243fe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5c9ba3a451f12a50",
+    "type": "split",
+    "children": [
+      {
+        "id": "e219e796f2cb815a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58f6f50c129df8bf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "How I Trade In Stocks/How Money Is Made.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for How Money Is Made"
+            }
+          },
+          {
+            "id": "4b47c3d33251c30c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "How I Trade In Stocks/How Money Is Made.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from How Money Is Made"
+            }
+          },
+          {
+            "id": "bfef14f0f8b2cb09",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "150c389b21595667",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "How I Trade In Stocks/How Money Is Made.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of How Money Is Made"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "random-note:Open random note": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "6a396f56ece3d969",
+  "lastOpenFiles": [
+    "How I Trade In Stocks/Who Can Win.md",
+    "Untitled.base",
+    "How I Trade In Stocks/Treating Speculation as a Business.md",
+    "How I Trade In Stocks/Timing.md",
+    "How I Trade In Stocks/The Game of Speculation.md",
+    "How I Trade In Stocks/Patience With The Market.md",
+    "How I Trade In Stocks/Opinions On The Market.md",
+    "How I Trade In Stocks/News On The Market.md",
+    "How I Trade In Stocks/How To Act.md",
+    "How I Trade In Stocks/How Money Is Made.md",
+    "How I Trade In Stocks/History.md",
+    "Psychology of Speculation/Human Psychology.md",
+    "Psychology of Speculation/Averaging.md",
+    "Psychology of Speculation/Bargains in the Stock Market.md",
+    "Psychology of Speculation/Being Contrarian.md",
+    "Psychology of Speculation/Being Logical.md",
+    "Psychology of Speculation/Brokers Analytics.md",
+    "Psychology of Speculation/Crowd Behavior.md",
+    "Psychology of Speculation/Greed.md",
+    "Psychology of Speculation/Hope.md",
+    "How I Trade In Stocks/Market Analysis.md",
+    "How I Trade In Stocks/Untitled 1.md",
+    "Reminiscences of a Stock Operator/History Repeats Itself.md",
+    "How I Made $2,000,000 in the Stock Market/Buying Stocks.md",
+    "How I Trade In Stocks",
+    "How I Made $2,000,000 in the Stock Market/Waiting to Sell.md",
+    "How I Made $2,000,000 in the Stock Market/Techno-Fundamentalist Theory.md",
+    "Reminiscences of a Stock Operator",
+    "How I Made $2,000,000 in the Stock Market/Untitled",
+    "Unknown Market Wizards",
+    "Templates",
+    "Untitled.canvas",
+    "How I Made $2,000,000 in the Stock Market",
+    "Psychology of Speculation"
+  ]
+}
