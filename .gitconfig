@@ -1,10 +1,10 @@
 [core]
-	editor = nvim
-	autocrlf = input
+    editor = nvim
+    autocrlf = input
 [alias]
-        st = status
-        aa = add .
-        cm = commit -m
-        rs = restore .
-        lg = log --graph --decorate --oneline --abbrev-commit
-        ri = rebase -i HEAD~10
+    st = status
+    aa = add .
+    cam = commit -am
+    rs = restore .
+    lg = log --graph --decorate --oneline --abbrev-commit
+    ri = rebase -i HEAD~10
